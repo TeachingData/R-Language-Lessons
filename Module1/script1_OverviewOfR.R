@@ -35,12 +35,3 @@ count_heights <- table(heights)
 plot(count_heights)
 plot(count_heights, col="green")
 
-# with ggplot2 (ensure installed) making a better plot
-library(ggplot2) # to load the package
-
-# we need a data frame for this so let's make and see what it is
-as.data.frame(count_heights)
-
-# finally we can plot a dataframe (using height as the x-axis, Freq as y-axis)
-ggplot(data=as.data.frame(count_heights), aes(x=heights, y=Freq) + geom_bar(stat="identity")
-
