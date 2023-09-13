@@ -42,3 +42,17 @@ data(brexit_polls)
 head(brexit_polls)
 
 # Above should show a bunch of data from 2016 which we are now ready to use!
+
+#### We can also load data from files like CSVs
+# Using the players.csv file in datasets we can load it with default settings like:
+players <- read.csv(file='datasets/players.csv')
+
+# Then print out all of the (cause less than 6) with:
+head(players)
+
+# Or print out just the first column with:
+players[1]
+
+# Or print out all items of the 2nd column with:
+players[2,]
+
