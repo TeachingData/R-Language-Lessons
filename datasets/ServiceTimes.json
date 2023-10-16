@@ -1,0 +1,20 @@
+{
+  "ServiceTimes": [
+    {"Service": "no service", "Time": 0},
+    {"Service": "diag", "Time": 30},
+    {"Service": "software install", "Time": 12},
+    {"Service": "software repair", "Time": 20},
+    {"Service": "password reset", "Time": 8},
+    {"Service": "data backup", "Time": 57},
+    {"Service": "device replacement", "Time": 18},
+    {"Service": "advice", "Time": 8},
+    {"Service": "lesson", "Time": 30},
+    {"Service": "hardware repair", "Time": 28},
+    {"Service": "screen repair", "Time": 30},
+    {"Service": "screen protector", "Time": 8},
+    {"Service": "battery replacement", "Time": 30},
+    {"Service": "new setup", "Time": 20},
+    {"Service": "data recovery software", "Time": 117},
+    {"Service": "data recovery hardware", "Time": 500}
+  ]
+}
